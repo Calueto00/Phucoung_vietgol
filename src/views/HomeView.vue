@@ -12,7 +12,7 @@ import Projects from '@/components/Projects.vue';
   <main>
     <Header></Header>
     <!--section about -->
-    <section id="About" class="lg:h-[100vh] h-[110vh] flex items-center justify-center pt-5 lg:pt-0 max-w-3xl lg:max-w-none lg:px-0 px-7">
+    <section id="About" class="lg:h-[100vh] h-[110vh] flex items-center justify-center pt-5 lg:pt-0 max-w-3xl lg:max-w-none lg:px-0 px-5">
 
       <div class="lg:h-[70vh] h-full lg:max-w-5xl mx-auto w-full grid lg:grid-cols-2  lg:gap-6 gap-2 ">
           <div class="relative w-full lg:h-[67%] h-[40vh] border ">

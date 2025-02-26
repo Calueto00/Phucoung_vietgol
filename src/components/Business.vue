@@ -25,7 +25,7 @@ onMounted(()=>{
 </script>
 
 <template>
-   <section class="lg:h-[70vh]  lg:py-8 lg:mt-0 mt-4 px-6 lg:px-0">
+   <section class="lg:h-[70vh]  lg:py-8 lg:mt-0 mt-4 px-5 lg:px-0">
         <div class="max-w-5xl mx-auto lg:h-full h-[82vh] lg:grid lg:place-items-center relative">
            
                     <div class="h-full w-full flex absolute lg:flex-row flex-col items-center justify-center z-20 itemView pb-6">

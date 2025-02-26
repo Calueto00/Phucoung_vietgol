@@ -10,7 +10,7 @@
       <img src="../assets/images/2.jpg" alt="" class="w-full h-full object-cover">
       <div class="absolute inset-0 z-[1] h-full w-full bg-black opacity-75"></div>
       <div class="absolute z-10 inset-0 w-full h-full grid place-items-center text-center">
-        <div class="h-1/2 lg:w-1/2 text-white space-y-3 px-7 lg:px-0">
+        <div class="h-1/2 lg:w-1/2 text-white space-y-3 px-5 lg:px-0">
           <h3 class="font-bold lg:text-3xl text-md"> {{ $t('homeActivity.title') }} <br> {{ $t('homeActivity.title2') }}</h3>
           <p class="mt-4 text-gray-200 lg:text-md text-sm">
             {{ $t('homeActivity.description') }}

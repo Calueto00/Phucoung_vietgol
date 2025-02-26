@@ -56,7 +56,7 @@ onMounted(()=>{
                                 {{ $t('header.title2') }}
                             </span>
                         </h1>
-                        <p class="lg:text-xl text-md px-6 lg:px-0 text-zinc-300">
+                        <p class="lg:text-xl text-md px-5 lg:px-0 text-zinc-300">
                             {{ $t('header.description') }}
                         </p>
 

@@ -23,7 +23,7 @@ onMounted(()=>{
     })
 </script>
 <template>
-    <div class="max-w-5xl mx-auto lg:h-[80vh] h-[70vh] lg:grid lg:place-items-center relative px-7 lg:px-0">
+    <div class="max-w-5xl mx-auto lg:h-[80vh] h-[70vh] lg:grid lg:place-items-center relative px-5 lg:px-0">
         <div class=" w-full h-[60vh] grid lg:grid-cols-2 grid-cols-1 lg:h-[60vh] gap-2 ">
             <div class="w-full lg:h-full h-[35vh] relative border">
                 <div class="bg-black opacity-30 absolute z-20 inset-0"></div>
