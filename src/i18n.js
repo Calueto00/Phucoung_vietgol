@@ -31,7 +31,7 @@ const messages = {
         description: 'Our experience in building construction ranges from highend residential projects to largescale commercial complexes.',
       },
       s2:{
-        title: 'insfrastructure and Urbanization',
+        title: 'Insfrastructure and Urbanization',
         description: 'We are involved in insfrastructure projects that include roads, sewage systems, water supply network and public service'
       },
       s3:{
