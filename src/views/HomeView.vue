@@ -12,10 +12,10 @@ import Projects from '@/components/Projects.vue';
   <main>
     <Header></Header>
     <!--section about -->
-    <section id="About" class="lg:h-[100vh] h-[108vh] flex items-center justify-center pt-5 lg:pt-0 lg:max-w-none lg:px-0 px-5">
+    <section id="About" class="lg:h-[100vh] h-[100vh] flex items-center justify-center pt-5 lg:pt-0 lg:max-w-none lg:px-0 px-5">
 
       <div class="lg:h-[70vh] h-full lg:max-w-5xl mx-auto w-full grid lg:grid-cols-2 grid-cols-1  lg:gap-6 ">
-          <div class="relative w-full lg:h-[67%] h-[44vh] border ">
+          <div class="relative w-full lg:h-[67%] h-[49vh] border ">
             <img src="../assets/images/about.jpg" class="w-full h-full object-cover object-top border" alt="">
             <div class="absolute inset-0 z-[1] bg-black w-full h-full opacity-[50%]"></div>
           </div>

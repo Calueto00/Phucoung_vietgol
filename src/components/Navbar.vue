@@ -35,7 +35,7 @@ onMounted(() => {
     <div class="w-full fixed z-50 bg-yellow-400">
         <nav class="lg:max-w-5xl lg:mx-auto flex flex-col lg:flex-row items-center justify-between lg:py-5 px-3">
             <div class="w-full flex items-center justify-between py-4 lg:py-0 lg:px-0 px-5">
-                <h1 class="font-extrabold lg:text-2xl">Phucoung</h1>
+                <img src="../assets/images/logo.jpg" alt="" class="lg:w-[20%] w-12 h-12">
                 <ion-icon class="lg:hidden text-3xl border-yellow-400 shadow-lg border-2 rounded-full p-1 hover:scale-110 
                 transition delay-150 duration-300 ease-in cursor-pointer" name="menu" @click="showMenu"></ion-icon>
                 
@@ -44,10 +44,13 @@ onMounted(() => {
                 <li class=" lg:shadow-none shadow text-center lg:py-0 py-2"><router-link to="/" class="w-full delay-150 duration-200 transition-all ease-in-out outline-none ">{{ $t('navBar.home') }}</router-link></li>
                 <li class=" lg:shadow-none shadow-md text-center lg:py-0 py-2"><router-link to="/about" class="w-full delay-150 duration-200 transition-all ease-in-out outline-none">{{ $t('navBar.about') }}</router-link></li>
                 <li class=" lg:shadow-none shadow-md text-center lg:py-0 py-2"><router-link to="/contact" class="w-full delay-150 duration-200 transition-all ease-in-out outline-none">{{ $t('navBar.contact') }}</router-link></li>
-                <select v-model="$i18n.locale" class="outline-none ">
-                    <option value="en">En</option>
-                    <option value="pt">Pt</option>
-                </select>
+                <button class="flex  lg:py-0 py-1 space-x-2 border-yellow-500 border-2  px-2 shadow-md my-2 lg:my-0">
+                    <span>Idiom:</span>
+                    <select v-model="$i18n.locale" class="outline-none bg-transparent">
+                        <option value="en">En</option>
+                        <option value="pt">Pt</option>
+                    </select>
+                </button>
             </ul>
         </nav>
     </div>
