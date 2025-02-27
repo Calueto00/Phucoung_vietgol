@@ -6,7 +6,7 @@
         <div class="lg:h-[100%] lg:max-w-5xl mx-auto lg:py-4">
             <h2 class="font-bold lg:text-3xl text-lg text-center mb-8 pt-4">{{ $t('homeService.title')}}</h2>
             <div class=" lg:h-full grid lg:grid-cols-3 gap-4 mb-5">
-                <div class="border shadow-md w-full lg:h-full h-[330px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
+                <div class="border shadow-md w-full lg:h-full h-[340px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
                     <img src="../assets/images/1.jpg" alt="" class="lg:h-1/2 h-[50%] object-cover w-full">
                     <div class="lg:p-4 space-y-1 p-3">
                         <div class="flex gap-2 items-center">
@@ -20,8 +20,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="border shadow-md lg:w-full lg:h-full h-[330px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
-                    <img src="../assets/images/estrutura.jpg" alt="" class="h-[55%] object-cover w-full">
+                <div class="border shadow-md lg:w-full lg:h-full h-[340px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
+                    <img src="../assets/images/estrutura.jpg" alt="" class="h-[50%] object-cover w-full">
                     <div class="lg:p-4 space-y-1  px-2 py-4">
                         <div class="flex gap-2 items-center">
                             <img src="../assets/icons/urbanize.svg" alt="" class="w-14 h-14">
@@ -33,8 +33,8 @@
                     </div>
                     
                 </div>
-                <div class="border shadow-md lg:w-full lg:h-full h-[330px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
-                    <img src="../assets/images/4.jpg" alt="" class="h-[55%] object-cover w-full">
+                <div class="border shadow-md lg:w-full lg:h-full h-[340px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
+                    <img src="../assets/images/4.jpg" alt="" class="h-[50%] object-cover w-full">
                     <div class="lg:p-4 space-y-1 p-3">
                        <div class="flex gap-2 items-center">
                         <img src="../assets/icons/renovation.svg" alt="" class="w-14 h-14">
@@ -45,8 +45,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="border shadow-md lg:w-full lg:h-[60%] h-[330px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
-                    <img src="../assets/images/about.jpg" alt="" class="h-[55%] object-cover object-center w-full">
+                <div class="border shadow-md lg:w-full lg:h-[60%] h-[340px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
+                    <img src="../assets/images/about.jpg" alt="" class="h-[50%] object-cover object-center w-full">
                     <div class="lg:p-4 space-y-1 p-3">
                         <div class="flex gap-2 items-center">
                             <img src="../assets/icons/manager.svg" alt="" class="w-12 h-12">
@@ -57,8 +57,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="border shadow-md w-full lg:h-[60%] h-[330px] flex flex-col bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
-                    <img src="../assets/images/consulting.jpg" alt="" class="h-[55%] object-cover">
+                <div class="border shadow-md w-full lg:h-[60%] h-[340px] flex flex-col bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
+                    <img src="../assets/images/consulting.jpg" alt="" class="h-[50%] object-cover">
                     <div class="lg:p-4 space-y-1 p-3">
                         <div class="flex gap-2 items-center">
                             <img src="../assets/icons/consulting.svg" alt="" class="w-12 h-12">
