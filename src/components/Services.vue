@@ -14,20 +14,20 @@
                             <h3 class="font-bold py-2 lg:text-md">{{ $t('homeService.s1.title')}}</h3>
                         </div>
                         <div>
-                            <p class=" text-slate-800 text-clip ">
+                            <p class=" text-slate-800">
                                 {{ $t('homeService.s1.description')}}
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="border shadow-md lg:w-full lg:h-full h-[340px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
+                <div class="border shadow-md lg:w-full lg:h-full h-[346px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
                     <img src="../assets/images/estrutura.jpg" alt="" class="h-1/2 object-cover w-full">
-                    <div class="lg:p-2 space-y-1 p-3">
+                    <div class="lg:p-2 space-y-1  px-2 py-3">
                         <div class="flex gap-2 items-center">
                             <img src="../assets/icons/urbanize.svg" alt="" class="w-14 h-14">
                             <h3 class="font-bold py-2">{{ $t('homeService.s2.title')}}</h3>
                         </div>
-                          <p class=" text-slate-800"> 
+                          <p class=" text-slate-800 "> 
                             {{ $t('homeService.s2.description')}}
                           </p>
                     </div>
