@@ -56,23 +56,23 @@ onMounted(()=>{
                                 {{ $t('header.title2') }}
                             </span>
                         </h1>
-                        <p class="lg:text-xl text-md px-5 lg:px-0 text-zinc-300">
+                        <p class="lg:text-xl text-sm px-5 lg:px-0 text-zinc-300">
                             {{ $t('header.description') }}
                         </p>
 
                         <div>
                             <button class="bg-yellow-400 lg:px-6 px-4 py-2 lg:py-3 transition-all ease-in-out delay-150 hover:scale-105 duration-300">
-                                <a href="#service" class="">{{ $t('header.btnService')}}</a>
+                                <a href="#service" class="lg:text-base text-sm">{{ $t('header.btnService')}}</a>
                             </button>
                             
                         <button class="transition-all ease-in-out delay-150 hover:scale-110 duration-300  lg:px-6 lg:py-3 px-4 py-2 mx-3 bg-white">
-                            <router-link to="/contact" class=" ">{{ $t('btnContact')}}</router-link>
+                            <router-link to="/contact" class=" lg:text-base text-sm">{{ $t('btnContact')}}</router-link>
                         </button>
                             
                         </div>
                    
                 </div>
-                <div class="text-white my-6 absolute space-x-6 lg:space-x-0 lg:top-72 top-[75%] max-w-5xl w-full flex justify-center lg:justify-between z-40">
+                <div class="text-white my-6 absolute space-x-6 lg:space-x-0 lg:top-[40%] top-[75%] max-w-5xl w-full flex justify-center lg:justify-between z-40">
                     <button class="preview text-5xl font-bold hover:scale-125 hover:text-yellow-400 delay-150 duration-200 transition-all ease-in-out">
                         <
                     </button>

@@ -38,7 +38,7 @@ onMounted(()=>{
             </div>
             <div class="w-full lg:h-full h-full lg:p-4 space-y-3 flex flex-col justify-center">
                 <h3 class="lg:text-2xl text-xl font-bold">{{ $t('homeProject.title')}}</h3>
-                <p class="lg:text-lg text-md">
+                <p class="lg:text-lg text-sm">
                     {{ $t('homeProject.description')}}
                 </p>
             </div>

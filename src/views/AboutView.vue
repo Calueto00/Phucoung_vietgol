@@ -36,11 +36,11 @@ import { ref } from 'vue';
                     <img src="../assets/images/team.jpg" alt="" class="w-full lg:h-[56%] h-[50vh] object-cover object-center">
                     <div class="lg:space-y-4 space-y-2">
                         <h2 class=" font-bold lg:text-xl text-lg">Phucuong Vietgol Lda</h2>
-                        <p class="text-md">
+                        <p class="lg:text-base text-sm text-justify">
                             {{ $t('about.description.p1') }}
                         </p>
 
-                        <p class="text-md" v-if="showText">
+                        <p class="lg:text-base text-sm text-justify" v-if="showText">
                             {{ $t('about.description.p2') }}
                         </p>
 
@@ -57,7 +57,7 @@ import { ref } from 'vue';
             <section class="relative lg:h-[60vh] h-[50vh]">
                 <img src="../assets/images/according.jpg" class="w-full h-full object-cover" alt="">
                 <div class="absolute inset-0 z-[1] bg-black w-full h-full opacity-70"></div>
-                <div class="z-10 absolute inset-0 grid place-items-center">
+                <div class="z-10 absolute inset-0 grid place-items-center px-5">
                     <h3 class="text-white font-bold lg:text-3xl text-xl text-center">{{ $t('about.banner') }}</h3>
                 </div>
             </section>
