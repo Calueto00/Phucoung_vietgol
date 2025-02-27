@@ -24,10 +24,10 @@ import Projects from '@/components/Projects.vue';
             <h2 class="lg:text-sm text-xs text-yellow-500">{{ $t('homeAbout.title')}}</h2>
 
             <h3 class="lg:text-2xl text-md font-bold">{{ $t('homeAbout.title2')}}</h3>
-            <p class="lg:text-md text-sm text-gray-900">
+            <p class="lg:text-base text-sm text-gray-900 text-justify tracking-tighter">
               {{ $t('homeAbout.p1')}}
             </p>
-            <p class="lg:text-md text-sm text-gray-900">
+            <p class="lg:text-base text-sm text-gray-900 text-justify tracking-tighter">
               {{ $t('homeAbout.p2')}}
             </p>
             

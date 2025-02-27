@@ -14,7 +14,7 @@
                             <h3 class="font-bold py-2 lg:text-base text-sm">{{ $t('homeService.s1.title')}}</h3>
                         </div>
                         <div>
-                            <p class=" text-slate-800 lg:text-base text-sm text-justify">
+                            <p class=" text-slate-800 lg:text-base text-sm text-justify tracking-tighter ">
                                 {{ $t('homeService.s1.description')}}
                             </p>
                         </div>
@@ -27,7 +27,7 @@
                             <img src="../assets/icons/urbanize.svg" alt="" class="lg:w-14 w-12 h-12 lg:h-14">
                             <h3 class="font-bold py-2 lg:text-base text-sm">{{ $t('homeService.s2.title')}}</h3>
                         </div>
-                          <p class=" text-slate-800  lg:text-base text-sm text-justify"> 
+                          <p class=" text-slate-800  lg:text-base text-sm text-justify tracking-tighter"> 
                             {{ $t('homeService.s2.description')}}
                           </p>
                     </div>
@@ -40,7 +40,7 @@
                         <img src="../assets/icons/renovation.svg" alt="" class="lg:w-14 w-12 h-12 lg:h-14">
                         <h3 class="font-bold py-2 lg:text-base text-sm">{{ $t('homeService.s3.title')}}</h3>
                        </div>
-                        <p class=" text-slate-800 lg:text-base text-sm text-justify">
+                        <p class=" text-slate-800 lg:text-base text-sm text-justify tracking-tighter">
                             {{ $t('homeService.s3.description')}}
                         </p>
                     </div>
@@ -52,7 +52,7 @@
                             <img src="../assets/icons/manager.svg" alt="" class="lg:w-12 w-12 h-12 lg:h-12">
                             <h3 class="font-bold py-2 lg:text-base text-sm">{{ $t('homeService.s4.title')}}</h3>
                         </div>
-                        <p class=" text-slate-800 lg:text-base text-sm lg:text-wrap text-justify">
+                        <p class=" text-slate-800 lg:text-base text-sm lg:text-wrap text-justify tracking-tighter">
                             {{ $t('homeService.s4.description')}}
                         </p>
                     </div>
@@ -64,7 +64,7 @@
                             <img src="../assets/icons/consulting.svg" alt="" class="lg:w-12 w-12 h-12 lg:h-12">
                             <h3 class="font-bold py-2 lg:text-base text-sm">{{ $t('homeService.s5.title')}}</h3>
                         </div>
-                        <p class=" text-slate-800 lg:text-base text-sm text-justify">
+                        <p class=" text-slate-800 lg:text-base text-sm text-justify tracking-tighter">
                             {{ $t('homeService.s5.description')}}
                         </p>
                     </div>

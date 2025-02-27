@@ -36,11 +36,11 @@ import { ref } from 'vue';
                     <img src="../assets/images/team.jpg" alt="" class="w-full lg:h-[56%] h-[50vh] object-cover object-center">
                     <div class="lg:space-y-4 space-y-2">
                         <h2 class=" font-bold lg:text-xl text-lg">Phucuong Vietgol Lda</h2>
-                        <p class="lg:text-base text-sm text-justify">
+                        <p class="lg:text-base text-sm text-justify tracking-tighter">
                             {{ $t('about.description.p1') }}
                         </p>
 
-                        <p class="lg:text-base text-sm text-justify" v-if="showText">
+                        <p class="lg:text-base text-sm text-justify tracking-tighter" v-if="showText">
                             {{ $t('about.description.p2') }}
                         </p>
 
