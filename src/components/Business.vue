@@ -26,7 +26,7 @@ onMounted(()=>{
 
 <template>
    <section class="lg:h-[70vh]  lg:py-8 lg:mt-0 mt-4 px-5 lg:px-0">
-        <div class="max-w-5xl mx-auto lg:h-full h-[79vh] lg:grid lg:place-items-center relative">
+        <div class="max-w-5xl mx-auto lg:h-full h-[75vh] lg:grid lg:place-items-center relative">
            
                     <div class="h-full w-full flex absolute lg:flex-row flex-col items-center justify-center z-20 itemView pb-6">
                         <img src="../assets/images/business3.jpg" class="lg:w-1/2 w-full lg:h-full h-1/2 object-cover" alt="">
@@ -82,7 +82,7 @@ onMounted(()=>{
                     </div>
 
                     <button class="nextView absolute z-30 bg-black text-white lg:text-5xl lg:px-6 px-5 lg:bottom-0 lg:left-[50%] 
-                    transition-all ease-in-out delay-150 duration-200 hover:scale-105 bottom-[12%] left-[89%]">
+                    transition-all ease-in-out delay-150 duration-200 hover:scale-105 bottom-[16%] left-[89%]">
                         >
                     </button>
                

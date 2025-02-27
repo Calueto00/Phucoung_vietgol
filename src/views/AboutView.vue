@@ -92,7 +92,7 @@ import { ref } from 'vue';
                         <div class="border h-[230px] w-full relative rounded-md">
                             <img src="../assets/images/gestor.jpg" alt="" class="w-full h-full object-fit">
                             <div class="absolute bottom-0 w-full text-center bg-zinc-900">
-                                <h3 class="text-white">alterar</h3>
+                                <h3 class="text-white">NGUYEN HỎNG LINH</h3>
                                 <span class="text-yellow-400 font-bold text-lg">{{ $t('about.team.manager')}}</span>
                             </div>
                         </div>
@@ -107,14 +107,14 @@ import { ref } from 'vue';
                             <img src="../assets/images/chef4.jpg" alt="" class="w-full h-full object-fit">
                             <div class="absolute bottom-0 w-full text-center bg-zinc-900">
                                 <h3 class="text-white">Phạm Xuân Cần</h3>
-                                <span class="text-yellow-400 font-bold text-lg">{{ $t('about.team.engineer')}}</span>
+                                <span class="text-yellow-400 font-bold lg:text-lg text-base">{{ $t('about.team.engineer')}}</span>
                             </div>
                         </div>
                         <div class="border h-[230px] w-full relative rounded-md">
                             <img src="../assets/images/chef1.jpg" alt="" class="w-full h-full object-fit">
                             <div class="absolute bottom-0 w-full text-center bg-zinc-900">
-                                <h3 class="text-white">Silva Fernando</h3>
-                                <span class="text-yellow-400 font-bold text-lg">{{ $t('about.team.accountant')}}</span>
+                                <h3 class="text-white ">Silva Fernando</h3>
+                                <span class="text-yellow-400 font-bold lg:text-lg text-base">{{ $t('about.team.accountant')}}</span>
                             </div>
                         </div>
                     </div>

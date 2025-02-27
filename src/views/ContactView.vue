@@ -17,7 +17,7 @@
                 </div>
             </div>
         </header> 
-        <section class="lg:h-[60vh] h-[90vh] lg:px-0 px-7">
+        <section class="lg:h-[60vh] h-[84vh] lg:px-0 px-7">
             <div class="max-w-5xl mx-auto h-full lg:grid lg:place-items-center lg:pt-0 pt-8">
                 <div class="lg:border-t grid lg:grid-cols-3 grid-cols-1 space-y-4 lg:space-y-0 gap-2 w-full lg:h-1/2">
                     <div class=" w-full h-full rounded-md flex flex-col items-center justify-center space-y-2">
@@ -42,13 +42,13 @@
             </div>
         </section>
 
-        <section class="lg:h-[80vh] h-[70vh]  relative">
+        <section class="lg:h-[80vh] h-[66vh]  relative">
             <div class="grid lg:grid-cols-2 grid-cols-2 h-full">
                 <img src="../assets/images/4.jpg" class="w-full h-full object-cover" alt="">
                 <div class=" w-full h-full bg-zinc-800"></div>
             </div>
             <form action="https://formsubmit.co/phucuongvietgol@gmail.com" method="post" class=" 
-            lg:h-[80%] lg:w-1/2 w-[80%] space-y-2 shadow p-4 bg-white absolute z-[1] lg:top-14 top-8 lg:right-[25%] right-14 outline-none">
+            lg:h-[80%] lg:w-1/2 w-[80%] space-y-2 shadow p-4 bg-white absolute z-[1] lg:top-14 top-10 lg:right-[25%] right-12 outline-none">
             <h3 class="text-xl font-bold">Contact Us</h3>
                 <div class=" w-full">
                     <label for="name">{{ $t('contact.form.name') }}:</label>
