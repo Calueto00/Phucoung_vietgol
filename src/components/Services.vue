@@ -2,69 +2,69 @@
 </script>
 
 <template>
-   <section class="lg:h-[150vh] bg-slate-100 lg:px-0 px-5" id="service">
+   <section class="lg:h-[140vh] lg:mb-20 bg-slate-100 lg:px-0 px-5" id="service">
         <div class="lg:h-[100%] lg:max-w-5xl mx-auto lg:py-4">
             <h2 class="font-bold lg:text-3xl text-lg text-center mb-8 pt-4">{{ $t('homeService.title')}}</h2>
             <div class=" lg:h-full grid lg:grid-cols-3 gap-6 mb-5">
-                <div class="border shadow-md w-full lg:h-full h-[340px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
+                <div class="border shadow-md w-full lg:h-full h-[320px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
                     <img src="../assets/images/1.jpg" alt="" class="lg:h-1/2 h-[50%] object-cover w-full">
-                    <div class="lg:p-2 space-y-1 p-3">
+                    <div class="lg:p-3 space-y-1 p-3">
                         <div class="flex gap-2 items-center">
                             <img src="../assets/icons/construction.svg" alt="" class="w-14 h-14">
                             <h3 class="font-bold py-2 lg:text-md">{{ $t('homeService.s1.title')}}</h3>
                         </div>
                         <div>
-                            <p class=" text-slate-800">
+                            <p class=" text-slate-800 lg:text-base text-sm text-justify">
                                 {{ $t('homeService.s1.description')}}
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="border shadow-md lg:w-full lg:h-full h-[346px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
-                    <img src="../assets/images/estrutura.jpg" alt="" class="h-1/2 object-cover w-full">
-                    <div class="lg:p-2 space-y-1  px-2 py-3">
+                <div class="border shadow-md lg:w-full lg:h-full h-[345px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
+                    <img src="../assets/images/estrutura.jpg" alt="" class="h-[55%] object-cover w-full">
+                    <div class="lg:p-3 space-y-1  px-2 py-4">
                         <div class="flex gap-2 items-center">
                             <img src="../assets/icons/urbanize.svg" alt="" class="w-14 h-14">
                             <h3 class="font-bold py-2">{{ $t('homeService.s2.title')}}</h3>
                         </div>
-                          <p class=" text-slate-800 "> 
+                          <p class=" text-slate-800  lg:text-base text-sm text-justify"> 
                             {{ $t('homeService.s2.description')}}
                           </p>
                     </div>
                     
                 </div>
                 <div class="border shadow-md lg:w-full lg:h-full h-[340px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
-                    <img src="../assets/images/4.jpg" alt="" class="h-[50%] object-cover w-full">
-                    <div class="lg:p-2 space-y-1 p-3">
+                    <img src="../assets/images/4.jpg" alt="" class="h-[55%] object-cover w-full">
+                    <div class="lg:p-3 space-y-1 p-3">
                        <div class="flex gap-2 items-center">
                         <img src="../assets/icons/renovation.svg" alt="" class="w-14 h-14">
                         <h3 class="font-bold py-2">{{ $t('homeService.s3.title')}}</h3>
                        </div>
-                        <p class=" text-slate-800">
+                        <p class=" text-slate-800 lg:text-base text-sm text-justify">
                             {{ $t('homeService.s3.description')}}
                         </p>
                     </div>
                 </div>
-                <div class="border shadow-md lg:w-full lg:h-[60%] h-[330px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
-                    <img src="../assets/images/about.jpg" alt="" class="h-[50%] object-cover object-center w-full">
-                    <div class="lg:p-2 space-y-1 p-3">
+                <div class="border shadow-md lg:w-full lg:h-[60%] h-[320px] bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
+                    <img src="../assets/images/about.jpg" alt="" class="h-[55%] object-cover object-center w-full">
+                    <div class="lg:p-3 space-y-1 p-3">
                         <div class="flex gap-2 items-center">
                             <img src="../assets/icons/manager.svg" alt="" class="w-12 h-12">
                             <h3 class="font-bold py-2">{{ $t('homeService.s4.title')}}</h3>
                         </div>
-                        <p class=" text-slate-800">
+                        <p class=" text-slate-800 lg:text-base text-sm text-justify">
                             {{ $t('homeService.s4.description')}}
                         </p>
                     </div>
                 </div>
-                <div class="border shadow-md w-full lg:h-[60%] h-[340px] flex flex-col bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
-                    <img src="../assets/images/consulting.jpg" alt="" class="h-[50%] object-cover">
-                    <div class="lg:p-2 space-y-1 p-3">
+                <div class="border shadow-md w-full lg:h-[60%] h-[320px] flex flex-col bg-white transition-all ease-in-out delay-150 hover:scale-105 duration-300">
+                    <img src="../assets/images/consulting.jpg" alt="" class="h-[55%] object-cover">
+                    <div class="lg:p-3 space-y-1 p-3">
                         <div class="flex gap-2 items-center">
                             <img src="../assets/icons/consulting.svg" alt="" class="w-12 h-12">
                             <h3 class="font-bold py-2">{{ $t('homeService.s5.title')}}</h3>
                         </div>
-                        <p class=" text-slate-800">
+                        <p class=" text-slate-800 lg:text-base text-sm text-justify">
                             {{ $t('homeService.s5.description')}}
                         </p>
                     </div>
