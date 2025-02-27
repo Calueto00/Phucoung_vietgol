@@ -12,15 +12,15 @@ import Projects from '@/components/Projects.vue';
   <main>
     <Header></Header>
     <!--section about -->
-    <section id="About" class="lg:h-[100vh] h-[110vh] flex items-center justify-center pt-5 lg:pt-0 max-w-3xl lg:max-w-none lg:px-0 px-5">
+    <section id="About" class="lg:h-[100vh] h-[108vh] flex items-center justify-center pt-5 lg:pt-0 max-w-3xl lg:max-w-none lg:px-0 px-5">
 
-      <div class="lg:h-[70vh] h-full lg:max-w-5xl mx-auto w-full grid lg:grid-cols-2  lg:gap-6 gap-2 ">
+      <div class="lg:h-[70vh] h-full lg:max-w-5xl mx-auto w-full grid lg:grid-cols-2 grid-cols-1  lg:gap-6 ">
           <div class="relative w-full lg:h-[67%] h-[40vh] border ">
             <img src="../assets/images/about.jpg" class="w-full h-full object-cover object-top border" alt="">
             <div class="absolute inset-0 z-[1] bg-black w-full h-full opacity-[50%]"></div>
           </div>
 
-          <div class="lg:w-full lg:h-full lg:space-y-6 space-y-3">
+          <div class="lg:w-full lg:h-full h-full lg:space-y-6 space-y-4">
             <h2 class="lg:text-sm text-xs text-yellow-500">{{ $t('homeAbout.title')}}</h2>
 
             <h3 class="lg:text-2xl text-md font-bold">{{ $t('homeAbout.title2')}}</h3>
