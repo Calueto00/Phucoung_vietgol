@@ -2,7 +2,7 @@
 </script>
 
 <template>
-   <section class="lg:h-[155vh] lg:mb-20 bg-slate-100 lg:px-0 px-5" id="service">
+   <section class="lg:h-[155vh] lg:mb-20 bg-slate-100 lg:px-0 px-5 lg:pb-0 pb-5" id="service">
         <div class="lg:h-[100%] lg:max-w-5xl mx-auto lg:py-4">
             <h2 class="font-bold lg:text-3xl text-lg text-center mb-8 pt-4">{{ $t('homeService.title')}}</h2>
             <div class=" lg:h-full grid lg:grid-cols-3 gap-4 mb-5">
