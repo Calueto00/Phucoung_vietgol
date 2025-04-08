@@ -17,7 +17,7 @@ const messages = {
     },
     btnContact: 'Contact-us',
     homeAbout: {
-      title: 'About Phucoung',
+      title: 'About Phucuong',
       title2: 'We are Experiencied in This Field',
       p1: 'We are a company specialized in civil construction, recognized for its commitment to excellence and innovation in all phases of its projects.',
       p2: 'We are dedicated to continuously enhancing our operational processes, ensuring not only efficiency but also strict adherence to deadlines and safety standards.',
@@ -141,7 +141,7 @@ const messages = {
     },
     btnContact: 'Contacta-nos',
     homeAbout: {
-      title: 'Sobre Phucoung',
+      title: 'Sobre Phucuong',
       title2: 'Nós somos experientes neste Campo',
       p1: 'Somos uma empresa especializada em construção civil, reconhecida pelo compromisso com a excelência e inovação em todas as fases dos seus projectos.',
       p2: 'Estamos dedicados a aprimorar continuamente nossos processos operacionais, assegurando não só a eficiência, mas também o cumprimento rigoroso dos prazos e padrões de segurança.',
